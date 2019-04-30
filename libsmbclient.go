@@ -8,6 +8,7 @@ import (
 
 /*
 #cgo LDFLAGS: -lsmbclient
+#cgo CFLAGS: -I/usr/include/samba-4.0
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
